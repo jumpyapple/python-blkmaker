@@ -11,7 +11,7 @@ from hashlib import sha256 as _sha256
 from struct import pack as _pack
 from time import time as _time
 
-from blktemplate import _Transaction, request as _request
+from .blktemplate import _Transaction, request as _request
 
 MAX_BLOCK_VERSION = 4
 
